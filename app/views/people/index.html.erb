@@ -1,0 +1,6 @@
+<% @people.each do |person| %>
+<b><%= person.name %></b><br>
+  <%person.groups.each do |group| %>
+  <%= group.name %><br>
+  <% end %>
+<% end %>

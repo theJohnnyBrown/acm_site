@@ -518,3 +518,1129 @@ ActionController::RoutingError (No route matches "/images/logo.png" with {:metho
   /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-27 00:34:16) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 158ms (View: 155, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 00:34:16) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-27 00:34:18) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 00:34:18) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#events (for 127.0.0.1 at 2010-05-27 00:34:20) [GET]
+Rendering template within layouts/application
+Rendering pages/events
+Completed in 39ms (View: 35, DB: 0) | 200 OK [http://localhost/events]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 00:34:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-05-27 00:34:21) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 00:34:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-27 00:34:26) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 00:34:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#events (for 127.0.0.1 at 2010-05-27 00:34:27) [GET]
+Rendering template within layouts/application
+Rendering pages/events
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/events]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 00:34:28) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-05-27 00:34:30) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 00:34:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-27 00:34:34) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 00:34:35) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCREATE TABLE "people" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100527060038')[0m
+Migrating to CreateGroups (20100527060111)
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE TABLE "groups" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100527060111')[0m
+  [4;35;1mSQL (1.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("groups")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("people")[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+Migrating to CreateGroups (20100527060111)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("groups")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("people")[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+Migrating to CreateGroups (20100527060111)
+Migrating to CreatePeopleGroups (20100527060511)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+Migrating to CreateGroups (20100527060111)
+Migrating to GroupsPeople (20100527062304)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+Migrating to CreateGroups (20100527060111)
+Migrating to GroupsPeople (20100527062304)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCREATE TABLE "assemblies_parts" ("assembly_id" integer, "part_id" integer) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100527062304')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (2.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("assemblies_parts")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("groups")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("people")[0m
+  [4;36;1mPerson Create (7.6ms)[0m   [0;1mINSERT INTO "people" ("name", "created_at", "updated_at", "email") VALUES('Johnny
+', '2010-05-27 06:48:19', '2010-05-27 06:48:19', NULL)[0m
+  [4;35;1mGroup Create (0.3ms)[0m   [0mINSERT INTO "groups" ("name", "created_at", "updated_at") VALUES('lizards', '2010-05-27 06:48:31', '2010-05-27 06:48:31')[0m
+  [4;36;1mGroup Create (0.2ms)[0m   [0;1mINSERT INTO "groups" ("name", "created_at", "updated_at") VALUES('mammals', '2010-05-27 06:48:36', '2010-05-27 06:48:36')[0m
+  [4;35;1mPerson Create (0.2ms)[0m   [0mINSERT INTO "people" ("name", "created_at", "updated_at", "email") VALUES(NULL, '2010-05-27 06:49:18', '2010-05-27 06:49:18', NULL)[0m
+  [4;36;1mSQL (15.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to GroupsPeople (20100527062304)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: no such table: groups_people: DROP TABLE "groups_people"[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+Migrating to CreateGroups (20100527060111)
+Migrating to GroupsPeople (20100527062304)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("assemblies_parts")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("groups")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("people")[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to GroupsPeople (20100527062304)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::BusyException: database is locked: DROP TABLE "assemblies_parts"[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to GroupsPeople (20100527062304)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (58.2ms)[0m   [0mDROP TABLE "assemblies_parts"[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20100527062304'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("groups")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("people")[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+Migrating to CreateGroups (20100527060111)
+Migrating to GroupsPeople (20100527062304)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (2.6ms)[0m   [0mCREATE TABLE "groups_people" ("group_id" integer, "person_id" integer) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100527062304')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.4ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_list("groups")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("groups_people")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("people")[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mPerson Create (0.6ms)[0m   [0mINSERT INTO "people" ("name", "created_at", "updated_at", "email") VALUES(NULL, '2010-05-27 07:00:47', '2010-05-27 07:00:47', NULL)[0m
+  [4;36;1mGroup Create (0.3ms)[0m   [0;1mINSERT INTO "groups" ("name", "created_at", "updated_at") VALUES(NULL, '2010-05-27 07:00:50', '2010-05-27 07:00:50')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mINSERT INTO "groups_people" ("group_id", "person_id") VALUES (1, 1)[0m
+  [4;36;1mGroup Create (0.2ms)[0m   [0;1mINSERT INTO "groups" ("name", "created_at", "updated_at") VALUES(NULL, '2010-05-27 07:01:01', '2010-05-27 07:01:01')[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mINSERT INTO "groups_people" ("group_id", "person_id") VALUES (2, 1)[0m
+  [4;36;1mPerson Load (0.4ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;35;1mGroup Create (0.2ms)[0m   [0mINSERT INTO "groups" ("name", "created_at", "updated_at") VALUES(NULL, '2010-05-27 07:03:16', '2010-05-27 07:03:16')[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mINSERT INTO "groups_people" ("group_id", "person_id") VALUES (3, 1)[0m
+  [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mPerson Load (0.4ms)[0m   [0;1mSELECT * FROM "people" [0m
+  [4;35;1mPerson Update (0.2ms)[0m   [0mUPDATE "people" SET "updated_at" = '2010-05-27 07:09:17', "name" = 'johnny' WHERE "id" = 1[0m
+  [4;36;1mPerson Load (0.4ms)[0m   [0;1mSELECT * FROM "people" [0m
+  [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;36;1mGroup Create (0.2ms)[0m   [0;1mINSERT INTO "groups" ("name", "created_at", "updated_at") VALUES(NULL, '2010-05-27 07:12:12', '2010-05-27 07:12:12')[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mINSERT INTO "groups_people" ("group_id", "person_id") VALUES (4, 1)[0m
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-05-27 02:17:14) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 222ms (View: 217, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 02:17:14) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-05-27 02:17:31) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: new):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-05-27 02:18:26) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 02:18:26) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mPerson Create (0.6ms)[0m   [0;1mINSERT INTO "people" ("name", "created_at", "updated_at", "email") VALUES('johnny', '2010-05-27 07:22:23', '2010-05-27 07:22:23', NULL)[0m
+  [4;35;1mPerson Create (0.4ms)[0m   [0mINSERT INTO "people" ("name", "created_at", "updated_at", "email") VALUES('DeGrassi', '2010-05-27 07:23:04', '2010-05-27 07:23:04', NULL)[0m
+  [4;36;1mGroup Create (0.5ms)[0m   [0;1mINSERT INTO "groups" ("name", "created_at", "updated_at") VALUES(NULL, '2010-05-27 07:23:13', '2010-05-27 07:23:13')[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mINSERT INTO "groups_people" ("group_id", "person_id") VALUES (1, 1)[0m
+  [4;36;1mGroup Create (0.4ms)[0m   [0;1mINSERT INTO "groups" ("name", "created_at", "updated_at") VALUES(NULL, '2010-05-27 07:23:17', '2010-05-27 07:23:17')[0m
+  [4;35;1mSQL (2.5ms)[0m   [0mINSERT INTO "groups_people" ("group_id", "person_id") VALUES (2, 1)[0m
+  [4;36;1mGroup Load (0.6ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;36;1mGroup Create (0.4ms)[0m   [0;1mINSERT INTO "groups" ("name", "created_at", "updated_at") VALUES(NULL, '2010-05-27 07:23:45', '2010-05-27 07:23:45')[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mINSERT INTO "groups_people" ("group_id", "person_id") VALUES (3, 2)[0m
+  [4;36;1mGroup Load (0.5ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-05-27 02:24:54) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 02:24:54) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-05-27 02:24:58) [GET]
+
+NameError (uninitialized constant PeopleController::Restaurant):
+  app/controllers/people_controller.rb:6:in `index'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (140.4ms)
+Rendered rescues/_request_and_response (20.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-05-27 02:25:43) [GET]
+  [4;36;1mPerson Load (1.0ms)[0m   [0;1mSELECT * FROM "people" [0m
+
+ActionView::MissingTemplate (Missing template people/index.erb in view path app/views):
+  app/controllers/people_controller.rb:8:in `index'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#new (for 127.0.0.1 at 2010-05-27 02:30:03) [GET]
+Rendering template within layouts/application
+Rendering people/new
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/people/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 02:30:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-05-27 02:39:04) [GET]
+  [4;35;1mPerson Load (4.5ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering people/index
+
+ActionView::TemplateError (undefined local variable or method `restaurant' for #<ActionView::Base:0xb6f992bc>) on line #2 of app/views/people/index.html.erb:
+1: <% @people.each do |person| %>
+2: <b><%= restaurant.name %></b>
+3:   <%restaurant.groups.each do |group| %>
+4:   <%= group.name %>
+5:   <% end %>
+
+    app/views/people/index.html.erb:2
+    app/views/people/index.html.erb:1:in `each'
+    app/views/people/index.html.erb:1
+    app/controllers/people_controller.rb:8:in `index'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (158.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-05-27 02:39:21) [GET]
+  [4;36;1mPerson Load (4.2ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering people/index
+
+ActionView::TemplateError (undefined local variable or method `restaurant' for #<ActionView::Base:0xb70c9240>) on line #2 of app/views/people/index.html.erb:
+1: <% @people.each do |person| %>
+2: <b><%= restaurant.name %></b>
+3:   <%person.groups.each do |group| %>
+4:   <%= group.name %>
+5:   <% end %>
+
+    app/views/people/index.html.erb:2
+    app/views/people/index.html.erb:1:in `each'
+    app/views/people/index.html.erb:1
+    app/controllers/people_controller.rb:8:in `index'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (73.6ms)
+Rendered rescues/_request_and_response (2.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-05-27 02:39:36) [GET]
+  [4;35;1mPerson Load (2.8ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering people/index
+  [4;36;1mGroup Load (0.7ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;35;1mGroup Load (0.6ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+Completed in 41ms (View: 28, DB: 4) | 200 OK [http://localhost/people/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 02:39:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mPerson Load (0.9ms)[0m   [0;1mSELECT * FROM "people" [0m
+  [4;35;1mGroup Load (0.6ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" [0m
+  [4;35;1mGroup Load (0.5ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-05-27 02:43:19) [GET]
+  [4;36;1mPerson Load (22.3ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering people/index
+  [4;35;1mGroup Load (0.6ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;36;1mGroup Load (0.5ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+Completed in 94ms (View: 51, DB: 23) | 200 OK [http://localhost/people/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 02:43:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-05-27 02:43:57) [GET]
+  [4;35;1mPerson Load (0.8ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering people/index
+  [4;36;1mGroup Load (0.6ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;35;1mGroup Load (0.6ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+Completed in 58ms (View: 44, DB: 2) | 200 OK [http://localhost/people/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 02:43:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mPerson Load (0.9ms)[0m   [0;1mSELECT * FROM "people" [0m
+  [4;35;1mGroup Load (0.6ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;36;1mGroup Load (0.5ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-05-27 02:46:12) [GET]
+  [4;36;1mPerson Load (0.9ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering people/index
+  [4;35;1mGroup Load (0.7ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;36;1mGroup Load (2.4ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+Completed in 118ms (View: 21, DB: 4) | 200 OK [http://localhost/people/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 02:46:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-05-27 02:46:52) [GET]
+  [4;35;1mPerson Load (0.9ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering people/index
+  [4;36;1mGroup Load (0.7ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;35;1mGroup Load (0.5ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+Completed in 31ms (View: 18, DB: 2) | 200 OK [http://localhost/people/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 02:46:52) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" [0m
+  [4;36;1mGroup Load (0.6ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;35;1mGroup Update (16.5ms)[0m   [0mUPDATE "groups" SET "updated_at" = '2010-05-27 07:48:43', "name" = 'winners' WHERE "id" = 1[0m
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-05-27 02:48:46) [GET]
+  [4;36;1mPerson Load (0.8ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering people/index
+  [4;35;1mGroup Load (2.5ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;36;1mGroup Load (0.5ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+Completed in 29ms (View: 15, DB: 4) | 200 OK [http://localhost/people/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 02:48:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mGroup Load (0.5ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+  [4;35;1mGroup Load (0.6ms)[0m   [0mSELECT * FROM "groups" [0m
+  [4;36;1mGroup Update (0.4ms)[0m   [0;1mUPDATE "groups" SET "updated_at" = '2010-05-27 07:58:31', "name" = 'catz' WHERE "id" = 3[0m
+  [4;35;1mGroup Load (2.4ms)[0m   [0mSELECT * FROM "groups" [0m
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-05-27 02:59:25) [GET]
+  [4;35;1mPerson Load (0.8ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering people/index
+  [4;36;1mGroup Load (2.4ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;35;1mGroup Load (0.5ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+Completed in 30ms (View: 18, DB: 4) | 200 OK [http://localhost/people/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 02:59:25) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mGroup Update (0.4ms)[0m   [0;1mUPDATE "groups" SET "updated_at" = '2010-05-27 07:59:38', "name" = 'ho''s' WHERE "id" = 2[0m
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-05-27 02:59:43) [GET]
+  [4;36;1mPerson Load (0.9ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering people/index
+  [4;35;1mGroup Load (0.6ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;36;1mGroup Load (0.5ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+Completed in 31ms (View: 17, DB: 2) | 200 OK [http://localhost/people/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 02:59:43) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-05-27 03:02:44) [GET]
+  [4;35;1mPerson Load (0.8ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering people/index
+  [4;36;1mGroup Load (0.6ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;35;1mGroup Load (0.5ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+Completed in 31ms (View: 17, DB: 2) | 200 OK [http://localhost/people/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 03:02:44) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 03:08:07) [GET]
+
+ActionController::RoutingError (No route matches "/groups" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 03:08:14) [GET]
+
+ActionController::RoutingError (No route matches "/groups/" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-05-27 03:08:22) [GET]
+  [4;36;1mPerson Load (0.9ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering people/index
+  [4;35;1mGroup Load (0.7ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;36;1mGroup Load (0.6ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+Completed in 34ms (View: 18, DB: 2) | 200 OK [http://localhost/people]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 03:08:22) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-05-27 03:09:34) [GET]
+  [4;35;1mPerson Load (0.8ms)[0m   [0mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering people/index
+  [4;36;1mGroup Load (0.6ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;35;1mGroup Load (0.5ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+Completed in 32ms (View: 20, DB: 2) | 200 OK [http://localhost/people]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 03:09:34) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 03:09:39) [GET]
+
+ActionController::RoutingError (No route matches "/groups" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 03:09:42) [GET]
+
+ActionController::RoutingError (No route matches "/groups/new" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 03:11:38) [GET]
+
+ActionController::RoutingError (No route matches "/groups" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 03:14:35) [GET]
+
+ActionController::RoutingError (No route matches "/groups" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-05-27 03:14:46) [GET]
+  [4;36;1mPerson Load (0.9ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering people/index
+  [4;35;1mGroup Load (0.7ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;36;1mGroup Load (0.5ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+Completed in 37ms (View: 21, DB: 2) | 200 OK [http://localhost/people]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 03:14:46) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 03:15:41) [GET]
+
+ActionController::RoutingError (No route matches "/groups" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 03:16:08) [GET]
+
+ActionController::RoutingError (No route matches "/groups/index" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 03:16:16) [GET]
+
+ActionController::RoutingError (No route matches "/groups/index.html" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-05-27 03:16:58) [GET]
+  [4;35;1mGroup Load (0.9ms)[0m   [0mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+Completed in 72ms (View: 59, DB: 2) | 200 OK [http://localhost/groups]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-27 03:16:58) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
