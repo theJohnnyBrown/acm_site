@@ -1644,3 +1644,16 @@ ActionController::RoutingError (No route matches "/images/logo.png" with {:metho
   /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+  [4;36;1mPerson Load (0.9ms)[0m   [0;1mSELECT * FROM "people" [0m
+  [4;36;1mPerson Load (0.9ms)[0m   [0;1mSELECT * FROM "people" [0m
+  [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" [0m
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" [0m
+  [4;36;1mPerson Update (0.7ms)[0m   [0;1mUPDATE "people" SET "updated_at" = '2010-05-27 09:13:02', "name" = 'JB' WHERE "id" = 1[0m
+  [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" [0m
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" [0m
+  [4;35;1mPerson Update (0.4ms)[0m   [0mUPDATE "people" SET "updated_at" = '2010-05-27 09:15:31', "name" = 'De''Grassi' WHERE "id" = 2[0m
+  [4;36;1mGroup Load (0.6ms)[0m   [0;1mSELECT * FROM "groups" [0m
+  [4;35;1mGroup Load (0.6ms)[0m   [0mSELECT * FROM "groups" [0m
+  [4;36;1mGroup Load (1.2ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "groups_people" ("group_id", "person_id") VALUES (1, 2)[0m
