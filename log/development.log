@@ -1657,3 +1657,133 @@ Rendering rescues/layout (not_found)
   [4;35;1mGroup Load (0.6ms)[0m   [0mSELECT * FROM "groups" [0m
   [4;36;1mGroup Load (1.2ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
   [4;35;1mSQL (0.4ms)[0m   [0mINSERT INTO "groups_people" ("group_id", "person_id") VALUES (1, 2)[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+Migrating to CreateGroups (20100527060111)
+Migrating to GroupsPeople (20100527062304)
+Migrating to CreateEvents (20100529061815)
+  [4;36;1mSQL (10.5ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (20.7ms)[0m   [0mCREATE TABLE "events" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "when" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (5.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100529061815')[0m
+  [4;35;1mSQL (8.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("events")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("groups")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("groups_people")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("people")[0m
+  [4;36;1mEvent Create (0.6ms)[0m   [0;1mINSERT INTO "events" ("name", "created_at", "updated_at", "when", "description") VALUES('the thing', '2010-05-29 06:29:13', '2010-05-29 06:29:13', '-4712-01-01', NULL)[0m
+  [4;35;1mPerson Load (9.3ms)[0m   [0mSELECT * FROM "people" [0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+Migrating to CreateGroups (20100527060111)
+Migrating to GroupsPeople (20100527062304)
+Migrating to CreateEvents (20100529061815)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("events")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("groups")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("groups_people")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("people")[0m
+  [4;36;1mEvent Load (0.9ms)[0m   [0;1mSELECT * FROM "events" [0m
+  [4;35;1mEvent Load (0.5ms)[0m   [0mSELECT * FROM "events" [0m
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" [0m
+  [4;36;1mPerson Load (0.9ms)[0m   [0;1mSELECT * FROM "people" [0m
+  [4;35;1mGroup Load (0.6ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+Migrating to CreateGroups (20100527060111)
+Migrating to GroupsPeople (20100527062304)
+Migrating to CreateEvents (20100529061815)
+Migrating to EventsPeople (20100529063409)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+Migrating to CreateGroups (20100527060111)
+Migrating to GroupsPeople (20100527062304)
+Migrating to CreateEvents (20100529061815)
+Migrating to EventsPeople (20100529063409)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCREATE TABLE "events_people" ("event_id" integer, "person_id" integer) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100529063409')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("events")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("events_people")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("groups")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("groups_people")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("people")[0m
+  [4;36;1mPerson Load (0.9ms)[0m   [0;1mSELECT * FROM "people" [0m
+  [4;35;1mEvent Load (0.3ms)[0m   [0mSELECT * FROM "events" INNER JOIN "events_people" ON "events".id = "events_people".event_id WHERE ("events_people".person_id = 1 ) [0m
+  [4;36;1mEvent Load (0.5ms)[0m   [0;1mSELECT * FROM "events" [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mINSERT INTO "events_people" ("event_id", "person_id") VALUES (1, 1)[0m
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "events_people" ON "people".id = "events_people".person_id WHERE ("events_people".event_id = 1 ) [0m
+  [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."name" = 'De''Grassi') LIMIT 1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO "events_people" ("event_id", "person_id") VALUES (1, 2)[0m
+  [4;35;1mEvent Load (0.6ms)[0m   [0mSELECT * FROM "events" INNER JOIN "events_people" ON "events".id = "events_people".event_id WHERE ("events_people".person_id = 2 ) [0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+Migrating to CreateGroups (20100527060111)
+Migrating to GroupsPeople (20100527062304)
+Migrating to CreateEvents (20100529061815)
+Migrating to EventsPeople (20100529063409)
+Migrating to EventsGroups (20100529064526)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (9.0ms)[0m   [0mCREATE TABLE "events_groups" ("event_id" integer, "group_id" integer) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100529064526')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.6ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("events")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("events_groups")[0m
+  [4;36;1mSQL (4.8ms)[0m   [0;1mPRAGMA index_list("events_people")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("groups")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("groups_people")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("people")[0m

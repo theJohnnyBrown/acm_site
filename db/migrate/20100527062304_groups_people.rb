@@ -7,6 +7,6 @@ class GroupsPeople < ActiveRecord::Migration
   end
 
   def self.down
-    drop_table :assemblies_parts
+    drop_table :groups_people
   end
 end
