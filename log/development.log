@@ -1787,3 +1787,350 @@ Migrating to EventsGroups (20100529064526)
   [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("groups")[0m
   [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("groups_people")[0m
   [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("people")[0m
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT "people".id FROM "people" WHERE ("people"."email" IS NULL) LIMIT 1[0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" WHERE (LOWER("people"."email") = 'bla.gov') LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" WHERE (LOWER("people"."email") = 'bob@bla.gov') LIMIT 1[0m
+  [4;35;1mPerson Create (0.6ms)[0m   [0mINSERT INTO "people" ("name", "created_at", "updated_at", "email") VALUES('bob', '2010-06-02 19:45:37', '2010-06-02 19:45:37', 'bob@bla.gov')[0m
+  [4;36;1mPerson Load (0.4ms)[0m   [0;1mSELECT "people".id FROM "people" WHERE (LOWER("people"."email") = 'bob@bla.gov') LIMIT 1[0m
+  [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."name" = 'bob') LIMIT 1[0m
+  [4;36;1mEvent Load (0.3ms)[0m   [0;1mSELECT * FROM "events" INNER JOIN "events_people" ON "events".id = "events_people".event_id WHERE ("events_people".person_id = 3 ) [0m
+  [4;35;1mGroup Load (0.2ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 3 ) [0m
+  [4;36;1mPerson Destroy (0.3ms)[0m   [0;1mDELETE FROM "people" WHERE "id" = 3[0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" [0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+Migrating to CreateGroups (20100527060111)
+Migrating to GroupsPeople (20100527062304)
+Migrating to CreateEvents (20100529061815)
+Migrating to EventsPeople (20100529063409)
+Migrating to EventsGroups (20100529064526)
+Migrating to AddEmailUniquenessIndex (20100602194826)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCREATE UNIQUE INDEX "index_people_on_email" ON "people" ("email")[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100602194826')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (1.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("events")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("events_groups")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("events_people")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("groups")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("groups_people")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("people")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_info('index_people_on_email')[0m
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-02 15:55:02) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 166ms (View: 163, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 15:55:02) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#index (for 127.0.0.1 at 2010-06-02 15:55:47) [GET]
+  [4;36;1mPerson Load (1.1ms)[0m   [0;1mSELECT * FROM "people" [0m
+Rendering template within layouts/application
+Rendering people/index
+  [4;35;1mGroup Load (0.6ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;36;1mGroup Load (0.7ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 2 ) [0m
+Completed in 112ms (View: 45, DB: 2) | 200 OK [http://localhost/people]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 15:55:47) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#show (for 127.0.0.1 at 2010-06-02 16:03:07) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPerson Load (0.4ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering people/show
+
+ActionView::TemplateError (undefined method `name' for nil:NilClass) on line #1 of app/views/people/show.html.erb:
+1: <%= @user.name %>, <%= @user.email %>
+
+    app/views/people/show.html.erb:1
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (145.8ms)
+Rendered rescues/_request_and_response (16.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PeopleController#show (for 127.0.0.1 at 2010-06-02 16:03:53) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPerson Load (0.4ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering people/show
+Completed in 21ms (View: 10, DB: 0) | 200 OK [http://localhost/people/show/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 16:03:53) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#show (for 127.0.0.1 at 2010-06-02 16:04:01) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPerson Load (0.4ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering people/show
+Completed in 16ms (View: 4, DB: 0) | 200 OK [http://localhost/people/show/2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 16:04:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#show (for 127.0.0.1 at 2010-06-02 16:11:45) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering people/show
+Completed in 18ms (View: 4, DB: 0) | 200 OK [http://localhost/people/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 16:11:45) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#show (for 127.0.0.1 at 2010-06-02 16:11:51) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mPerson Load (0.4ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering people/show
+Completed in 16ms (View: 5, DB: 0) | 200 OK [http://localhost/people/2]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-02 16:11:51) [GET]
+
+ActionController::RoutingError (No route matches "/images/logo.png" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (9.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+Migrating to CreateGroups (20100527060111)
+Migrating to GroupsPeople (20100527062304)
+Migrating to CreateEvents (20100529061815)
+Migrating to EventsPeople (20100529063409)
+Migrating to EventsGroups (20100529064526)
+Migrating to AddEmailUniquenessIndex (20100602194826)
+Migrating to AddPasswordToUsers (20100604184202)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: no such table: users: ALTER TABLE "users" ADD "encrypted_password" varchar(255)[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+Migrating to CreateGroups (20100527060111)
+Migrating to GroupsPeople (20100527062304)
+Migrating to CreateEvents (20100529061815)
+Migrating to EventsPeople (20100529063409)
+Migrating to EventsGroups (20100529064526)
+Migrating to AddEmailUniquenessIndex (20100602194826)
+Migrating to AddPasswordToPeople (20100604184421)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: no such table: peoples: ALTER TABLE "peoples" ADD "encrypted_password" varchar(255)[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+Migrating to CreateGroups (20100527060111)
+Migrating to GroupsPeople (20100527062304)
+Migrating to CreateEvents (20100529061815)
+Migrating to EventsPeople (20100529063409)
+Migrating to EventsGroups (20100529064526)
+Migrating to AddEmailUniquenessIndex (20100602194826)
+Migrating to AddPasswordToPeople (20100604184421)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mALTER TABLE "people" ADD "encrypted_password" varchar(255)[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100604184421')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("events")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("events_groups")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("events_people")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("groups")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("groups_people")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("people")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_info('index_people_on_email')[0m
+  [4;36;1mSQL (15.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+Migrating to CreateGroups (20100527060111)
+Migrating to GroupsPeople (20100527062304)
+Migrating to CreateEvents (20100529061815)
+Migrating to EventsPeople (20100529063409)
+Migrating to EventsGroups (20100529064526)
+Migrating to AddEmailUniquenessIndex (20100602194826)
+Migrating to AddPasswordToPeople (20100604184421)
+Migrating to AddSaltToPeople (20100604185830)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mALTER TABLE "people" ADD "salt" varchar(255)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100604185830')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("events")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("events_groups")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("events_people")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("groups")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("groups_people")[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_list("people")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_info('index_people_on_email')[0m
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+  [4;35;1mPerson Load (0.4ms)[0m   [0mSELECT "people".id FROM "people" WHERE ("people"."email" IS NULL AND "people".id <> 1) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" WHERE (LOWER("people"."email") = 'johnnybrown7@gmail.com' AND "people".id <> 1) LIMIT 1[0m
+  [4;35;1mPerson Update (0.7ms)[0m   [0mUPDATE "people" SET "updated_at" = '2010-06-04 19:02:06', "email" = 'johnnybrown7@gmail.com', "encrypted_password" = 'ireland' WHERE "id" = 1[0m
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" WHERE (LOWER("people"."email") = 'johnnybrown7@gmail.com' AND "people".id <> 1) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" WHERE (LOWER("people"."email") = 'johnnybrown7@gmail.com' AND "people".id <> 1) LIMIT 1[0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" WHERE (LOWER("people"."email") = 'johnnybrown7@gmail.com' AND "people".id <> 1) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" WHERE (LOWER("people"."email") = 'johnnybrown7@gmail.com' AND "people".id <> 1) LIMIT 1[0m
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 1) [0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" WHERE (LOWER("people"."email") = 'johnnybrown7@gmail.com' AND "people".id <> 1) LIMIT 1[0m
+  [4;36;1mPerson Update (0.6ms)[0m   [0;1mUPDATE "people" SET "updated_at" = '2010-06-04 19:20:46', "encrypted_password" = '6aa5581656eeac1f1c80b066a696a879e750236ce1ac98ab70e1be48b2e1f828', "salt" = '4475341581d13eaf7fe729928aa682d5bc6f692aae624c2f944509f856b30249' WHERE "id" = 1[0m
+  [4;36;1mPerson Load (1.1ms)[0m   [0;1mSELECT * FROM "people" [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" [0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" WHERE (LOWER("people"."email") = 'johnnybrown7@gmail.com' AND "people".id <> 1) LIMIT 1[0m
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."email" = 'johnnybrown7@gmail.com') LIMIT 1[0m
+  [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."email" = 'johnnybrown7@gmail.com') LIMIT 1[0m
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."email" = 'johnnybrown7@gmail.com') LIMIT 1[0m
+  [4;35;1mEvent Load (0.5ms)[0m   [0mSELECT * FROM "events" INNER JOIN "events_people" ON "events".id = "events_people".event_id WHERE ("events_people".person_id = 1 ) [0m
+  [4;36;1mGroup Load (0.6ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;35;1mGroup Load (0.6ms)[0m   [0mSELECT * FROM "groups" [0m
+  [4;36;1mGroup Load (0.4ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO "groups_people" ("group_id", "person_id") VALUES (3, 1)[0m
+  [4;36;1mPerson Load (1.1ms)[0m   [0;1mSELECT * FROM "people" [0m
+  [4;35;1mGroup Load (0.7ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 1 ) [0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" WHERE (LOWER("people"."email") = 'henrywarmoth@gmail.com' AND "people".id <> 1) LIMIT 1[0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" WHERE (LOWER("people"."email") = 'henrywarmoth@gmail.com' AND "people".id <> 1) LIMIT 1[0m
+  [4;36;1mPerson Load (0.3ms)[0m   [0;1mSELECT "people".id FROM "people" WHERE (LOWER("people"."email") = 'henrywarmoth@gmail.com' AND "people".id <> 1) LIMIT 1[0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT "people".id FROM "people" WHERE (LOWER("people"."email") = 'henrywarmoth@gmail.com' AND "people".id <> 1) LIMIT 1[0m
+  [4;36;1mPerson Update (0.8ms)[0m   [0;1mUPDATE "people" SET "updated_at" = '2010-06-04 19:49:13', "email" = 'henrywarmoth@gmail.com', "encrypted_password" = '2490af0fd8714c23883c107b9491b2941abfa16a89e5b19d39fe7c074e06e5b2', "salt" = '3348594bcdbee0fa9baa16c269b475698f01bccaba5254527560c18b4e0b240a' WHERE "id" = 1[0m
+  [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."email" = 'henrywarmoth@gmail.com') LIMIT 1[0m
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."email" = 'henrywarmoth@gmail.com') LIMIT 1[0m

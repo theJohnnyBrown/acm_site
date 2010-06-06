@@ -1,7 +1,11 @@
 class PeopleController < ApplicationController
   def new
+    @title = "sign up"
   end
   
+  def show
+    @person = Person.find(params[:id])
+  end
   
    def index
     @people = Person.all
