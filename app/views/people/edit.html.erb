@@ -1,0 +1,31 @@
+
+<% form_for @person do |f| %>
+<%= f.error_messages %>
+  <div class="field">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :password %><br />
+    <%= f.password_field :password %>
+  </div>
+  <div class="field">
+    <%= f.label :password_confirmation, "Confirmation" %><br />
+    <%= f.password_field :password_confirmation %>
+  </div>
+  <div id = "groups_chooser">
+  <strong>Groups</strong>
+  <% @groups.each do |group| %>
+    <div class = "field">  
+      <%= check_box_tag "person[group_ids][]", group.id, @person.groups.include?(group) %><%= group.name %>
+    </div>
+  <% end %>
+  </div>
+   <div class="actions">
+    <%= f.submit "Update" %>
+  </div>
+<% end %>

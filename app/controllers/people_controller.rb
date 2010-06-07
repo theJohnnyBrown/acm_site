@@ -8,6 +8,29 @@ class PeopleController < ApplicationController
     @person = Person.find(params[:id])
   end
   
+  def edit
+    @person = Person.find(params[:id])
+    @groups = Group.all
+    @title = "Edit profile"
+  end
+  
+  def update
+    #params[:person][:group_ids] ||= []
+  
+    @person = Person.find(params[:id])
+    
+    if @person.update_attributes(params[:person])
+      @person.group_ids = params[:person][:group_ids]
+  
+      flash[:success] = "Profile updated."
+      redirect_to @person
+    else
+      @title = "Edit user"
+      @groups = Group.all
+      render 'edit'
+    end    
+  end
+  
    def index
     @people = Person.all
 
