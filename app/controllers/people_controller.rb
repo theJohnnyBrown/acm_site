@@ -21,6 +21,8 @@ class PeopleController < ApplicationController
     @person = Person.new params[:person]
     if @person.save
       #handle a successful save
+      flash[:success] = "welcome to your UNO ACM profile : )"
+      redirect_to(@person)
     else
       @title = "Sign up"
       render 'new'

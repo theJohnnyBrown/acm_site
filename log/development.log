@@ -2140,3 +2140,9 @@ Migrating to AddSaltToPeople (20100604185830)
  WHERE type = 'table' AND NOT name = 'sqlite_sequence'
 [0m
   [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" [0m
+  [4;36;1mPerson Load (1.3ms)[0m   [0;1mSELECT * FROM "people" [0m
+  [4;35;1mSQL (0.7ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mPerson Load (0.9ms)[0m   [0;1mSELECT * FROM "people" [0m
