@@ -1,0 +1,16 @@
+<% form_for(:session, :url => sessions_path) do |f| %>
+<%= f.error_messages %>
+  <div class="field">
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :password %><br />
+    <%= f.password_field :password %>
+  </div>
+  <div class="actions">
+    <%= f.submit "Log in" %>
+  </div>
+<% end %>
+  
+  <p>Don't have a UNO ACM profile? <%= link_to "get one here", new_person_path %></p>
