@@ -22,6 +22,7 @@ class PeopleController < ApplicationController
     if @person.save
       #handle a successful save
       flash[:success] = "welcome to your UNO ACM profile : )"
+      sign_in(@person)
       redirect_to(@person)
     else
       @title = "Sign up"
