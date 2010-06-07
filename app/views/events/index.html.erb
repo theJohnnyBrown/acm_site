@@ -1,0 +1,7 @@
+<h1>Events#index</h1>
+<% @events.each do |event| %>
+<b><%= event.name %></b><br>
+  <% event.groups.each do |group| %>
+  <%= group.name %>
+  <% end %>
+<% end %>

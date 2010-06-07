@@ -2134,3 +2134,9 @@ Migrating to AddSaltToPeople (20100604185830)
   [4;36;1mPerson Update (0.8ms)[0m   [0;1mUPDATE "people" SET "updated_at" = '2010-06-04 19:49:13', "email" = 'henrywarmoth@gmail.com', "encrypted_password" = '2490af0fd8714c23883c107b9491b2941abfa16a89e5b19d39fe7c074e06e5b2', "salt" = '3348594bcdbee0fa9baa16c269b475698f01bccaba5254527560c18b4e0b240a' WHERE "id" = 1[0m
   [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."email" = 'henrywarmoth@gmail.com') LIMIT 1[0m
   [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."email" = 'henrywarmoth@gmail.com') LIMIT 1[0m
+  [4;36;1mPerson Load (21.4ms)[0m   [0;1mSELECT * FROM "people" [0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" [0m
