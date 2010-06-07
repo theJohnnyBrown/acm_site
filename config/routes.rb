@@ -13,6 +13,9 @@ ActionController::Routing::Routes.draw do |map|
      map.resources :people
      map.resources :groups
      map.resources :events
+     map.resources :sessions, :only => [:new,:create,:destroy]
+     map.signin  '/signin',  :controller => 'sessions', :action => 'new'
+     map.signout '/signout', :controller => 'sessions', :action => 'destroy'
 
   # Sample resource route with options:
   #   map.resources :products, :member => { :short => :get, :toggle => :post }, :collection => { :sold => :get }
