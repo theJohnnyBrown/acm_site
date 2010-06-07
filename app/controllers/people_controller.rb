@@ -1,4 +1,7 @@
 class PeopleController < ApplicationController
+  before_filter :authenticate, :only => [:edit, :update]
+  before_filter :correct_person, :only => [:edit, :update]
+  
   def new
     @title = "sign up"
     @person = Person.new
@@ -15,12 +18,12 @@ class PeopleController < ApplicationController
   end
   
   def update
-    #params[:person][:group_ids] ||= []
+    params[:person][:group_ids] ||= []
   
     @person = Person.find(params[:id])
     
     if @person.update_attributes(params[:person])
-      @person.group_ids = params[:person][:group_ids]
+      #@person.group_ids = params[:person][:group_ids]
   
       flash[:success] = "Profile updated."
       redirect_to @person
@@ -52,5 +55,16 @@ class PeopleController < ApplicationController
       render 'new'
     end
   end
+  
+  private
+
+    def authenticate
+      deny_access unless signed_in?
+    end
+    
+    def correct_person
+      @person = Person.find(params[:id])
+      redirect_to(root_path) unless current_person?(@person)
+    end
 
 end

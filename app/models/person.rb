@@ -1,7 +1,7 @@
 require 'digest'
 class Person < ActiveRecord::Base
   attr_accessor :password
-  attr_accessible :name, :email, :password, :password_confirmation
+  attr_accessible :name, :email, :password, :password_confirmation, :group_ids
   
 
   has_and_belongs_to_many :groups

@@ -1,1 +1,4 @@
-<%= @person.name %>, <%= @person.email %>
+<%= @person.name %>, <%= @person.email %><br>
+<p>Groups:</p>
+<% @person.groups.each do |group| %>
+<%= group.name %>
