@@ -16,6 +16,58 @@ class Person < ActiveRecord::Base
   
   before_save :encrypt_password
   
+  def self.populate!
+    grp = Group.new(:name => "Social")
+    grp.save
+    grp = Group.new(:name => "Professional Development")
+    grp.save
+    grp = Group.new(:name => "Conferences and Competitions")
+    grp.save
+    grp = Group.new(:name => "Game Development")
+    grp.save
+    grp = Group.new(:name => "Robotics")
+    grp.save
+    grp = Group.new(:name => "ACM Intercollegiate Programing Competition")
+    grp.save
+    grp = Group.new(:name => "Supercomputing Conference Volunteers")
+    grp.save
+    
+    file = File.new("/home/johnny/Documents/rails/acm_site/app/models/populate.txt", "r")
+    while (line = file.gets)
+      member = line.split
+      last_name = member[0]
+      first_name = member[1]
+      email = member[2]
+      newGuy = Person.new(:name => "#{first_name} #{last_name}", :email => email.downcase, :password => email.downcase, :password_confirmation => email.downcase )
+      newGuy.save
+      
+      if (member[3] == "1")
+       newGuy.groups << Group.find(1);
+      end
+      if (member[4] == "1")
+       newGuy.groups << Group.find(2);
+      end
+      if (member[5] == "1")
+       newGuy.groups << Group.find(3);
+      end
+      if (member[6] == "1")
+       newGuy.groups << Group.find(4);
+      end 
+      if (member[7] == "1")
+       newGuy.groups << Group.find(5);
+      end
+      if (member[8] == "1")
+       newGuy.groups << Group.find(6);
+      end
+      if (member[10] == "1")
+       newGuy.groups << Group.find(7);
+      end
+      newGuy.save
+    end
+    file.close
+  
+  end
+  
   def has_password?(submitted_password)
     encrypted_password == encrypt(submitted_password)
   end
