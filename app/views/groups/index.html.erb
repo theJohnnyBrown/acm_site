@@ -1,5 +1,5 @@
 <% @groups.each do |group| %>
-<b><%= group.name %></b><br>
+<b><%= link_to "#{group.name}", group_path(group) %></b><br>
   <%group.people.each do |person| %>
   <%= person.name %><br>
   <% end %>

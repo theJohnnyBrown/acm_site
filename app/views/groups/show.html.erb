@@ -1,0 +1,13 @@
+<h2><%= @group.name %> </h2>
+<div id = group_people_list>
+<strong>Members:<strong><br>
+<% @group.people.each do |person| %>
+<%= link_to person.name, person %><br>
+<%end%>
+</div>
+<div id = group_events_list>
+<strong>Upcoming events:</strong>
+<% @group.events.each do |event| %>
+<%= link_to event.name, event %><br>
+<%end%>
+</div>
