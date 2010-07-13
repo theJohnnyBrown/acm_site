@@ -7067,3 +7067,9 @@ Rendering people/index
   [4;36;1mGroup Load (0.3ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 77 ) [0m
   [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
 Completed in 259ms (View: 193, DB: 47) | 200 OK [http://localhost/people/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-12 21:08:24) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 353ms (View: 273, DB: 0) | 200 OK [http://localhost/]
