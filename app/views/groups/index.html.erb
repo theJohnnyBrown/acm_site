@@ -1,6 +1,34 @@
-<% @groups.each do |group| %>
-<b><%= link_to "#{group.name}", group_path(group) %></b><br>
-  <%group.people.each do |person| %>
-  <%= person.name %><br>
+<script>
+  document.observe('dom:loaded',function(){
+    new Control.Tabs('group_tabs');  
+    Control.Tabs.instances[0].first();
+  });
+</script>
+<div>
+<ul id="group_tabs" class="subsection_tabs navigation"> 
+	<% count = 0 %>
+	<% @groups.each do |group| %>
+	  <li class="tab"> 
+	    <b><%= link_to "#{group.name}", "#tab#{count}", :class => "round"%></b><br>
+	  </li> 
+	  <% count = count + 1 %>
+	<% end %>
+</ul>
+</div> 	
+<hr>		
+  <% count = 0 %>
+  <% @groups.each do |group| %>
+
+	<div id="<%="tab#{count}"%>" >
+		
+		<h4><%= link_to group.name, group_path(group) %> </h4>
+		<strong>Members:</strong>
+		<p>
+		  <%group.people.each do |person| %>
+		    <%= person.name %><br>
+		  
+		  <% end %>
+		</p>
+	</div>
+	<% count = count + 1 %>
   <% end %>
-<% end %>

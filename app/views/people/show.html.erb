@@ -1,4 +1,7 @@
-<%= @person.name %>, <%= @person.email %>
+<%= @person.name %>, 
+<%if signed_in? then%>
+<%= @person.email %>
+<%end%>
 <p>Groups:<br>
 <% @person.groups.each do |group| %>
 <%= group.name %><br>

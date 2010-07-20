@@ -16,6 +16,21 @@ class Person < ActiveRecord::Base
   
   before_save :encrypt_password
   
+  def has_password?(submitted_password)
+    encrypted_password == encrypt(submitted_password)
+  end
+  
+  def remember_me!
+    self.remember_token = encrypt("#{salt}--#{id}#{Time.now.utc}")
+    save_without_validation
+  end
+  
+  def self.authenticate(email, submitted_password)
+    person = find_by_email(email)
+    return nil  if person.nil?
+    return person if person.has_password?(submitted_password)
+  end
+
   def self.populate!
     grp = Group.new(:name => "Social")
     grp.save
@@ -68,21 +83,6 @@ class Person < ActiveRecord::Base
   
   end
   
-  def has_password?(submitted_password)
-    encrypted_password == encrypt(submitted_password)
-  end
-  
-  def remember_me!
-    self.remember_token = encrypt("#{salt}--#{id}#{Time.now.utc}")
-    save_without_validation
-  end
-  
-  def self.authenticate(email, submitted_password)
-    person = find_by_email(email)
-    return nil  if person.nil?
-    return person if person.has_password?(submitted_password)
-  end
-
   private
 
     def encrypt_password

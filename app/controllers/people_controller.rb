@@ -23,6 +23,7 @@ class PeopleController < ApplicationController
     @groups = Group.all
     @title = "Edit profile"
   end
+  
   #sets the given Person 's attributes to those given in params
   ##before_filter s prevent anyone but the correct logged in user from editing their profile
   #PUT people/[id]
@@ -40,6 +41,7 @@ class PeopleController < ApplicationController
       render 'edit'
     end    
   end
+  
    #displays views/people/index.html.erb
    #GET /people
    def index
