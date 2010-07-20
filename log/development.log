@@ -7067,3 +7067,25 @@ Rendering people/index
   [4;36;1mGroup Load (0.3ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 77 ) [0m
   [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
 Completed in 259ms (View: 193, DB: 47) | 200 OK [http://localhost/people/]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-07-20 18:01:23) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+  [4;36;1mPerson Load (0.4ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'd5d7afc617211ce847b19ac9fe158d70b3dde3236e2aaff39b846ff4c7bc0329') LIMIT 1[0m
+Completed in 159ms (View: 154, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 18:01:26) [GET]
+  [4;35;1mGroup Load (1.3ms)[0m   [0mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;36;1mPerson Load (1.4ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;35;1mPerson Load (5.4ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;36;1mPerson Load (2.1ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;35;1mPerson Load (3.3ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;36;1mPerson Load (2.6ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;35;1mPerson Load (3.7ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;36;1mPerson Load (1.2ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'd5d7afc617211ce847b19ac9fe158d70b3dde3236e2aaff39b846ff4c7bc0329') LIMIT 1[0m
+Completed in 87ms (View: 54, DB: 21) | 200 OK [http://localhost/groups]
