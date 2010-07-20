@@ -11050,3 +11050,2568 @@ ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" wit
   /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-07-20 15:53:42) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+  [4;36;1mPerson Load (15.5ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 305ms (View: 284, DB: 15) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:53:43) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:53:43) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing EventsController#index (for 127.0.0.1 at 2010-07-20 15:53:45) [GET]
+  [4;35;1mEvent Load (0.7ms)[0m   [0mSELECT * FROM "events" [0m
+Rendering template within layouts/application
+Rendering events/index
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 99ms (View: 79, DB: 1) | 200 OK [http://localhost/events]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:53:46) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:53:46) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 15:53:47) [GET]
+  [4;35;1mGroup Load (1.6ms)[0m   [0mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;36;1mPerson Load (1.4ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;35;1mPerson Load (1.7ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;36;1mPerson Load (2.2ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;35;1mPerson Load (3.3ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;36;1mPerson Load (2.7ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;35;1mPerson Load (2.3ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;36;1mPerson Load (1.2ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 120ms (View: 75, DB: 17) | 200 OK [http://localhost/groups]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:53:47) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:53:47) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#show (for 127.0.0.1 at 2010-07-20 15:53:48) [GET]
+  Parameters: {"id"=>"31"}
+  [4;36;1mPerson Load (0.7ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 31) [0m
+Rendering template within layouts/application
+Rendering people/show
+  [4;35;1mGroup Load (1.0ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 31 ) [0m
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 88ms (View: 68, DB: 2) | 200 OK [http://localhost/people/31]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:53:48) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:53:48) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 15:53:50) [GET]
+  [4;35;1mGroup Load (1.3ms)[0m   [0mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;36;1mPerson Load (1.3ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;35;1mPerson Load (1.8ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;36;1mPerson Load (3.6ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;35;1mPerson Load (7.8ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;36;1mPerson Load (2.7ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;35;1mPerson Load (2.2ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;36;1mPerson Load (1.2ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 84ms (View: 51, DB: 22) | 200 OK [http://localhost/groups]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:53:50) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:53:50) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 15:55:08) [GET]
+  [4;36;1mGroup Load (1.4ms)[0m   [0;1mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;35;1mPerson Load (1.6ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;36;1mPerson Load (1.8ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;35;1mPerson Load (2.3ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mPerson Load (3.2ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;35;1mPerson Load (2.8ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;36;1mPerson Load (3.7ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;35;1mPerson Load (1.2ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+  [4;36;1mPerson Load (0.7ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 95ms (View: 63, DB: 19) | 200 OK [http://localhost/groups]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:55:09) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:55:09) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-07-20 15:55:16) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+  [4;35;1mPerson Load (0.7ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 31ms (View: 26, DB: 1) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:55:17) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:55:17) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 15:55:19) [GET]
+  [4;36;1mGroup Load (1.4ms)[0m   [0;1mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;35;1mPerson Load (1.4ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;36;1mPerson Load (1.7ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;35;1mPerson Load (3.6ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mPerson Load (4.3ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;35;1mPerson Load (2.8ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;36;1mPerson Load (2.2ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;35;1mPerson Load (1.3ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 86ms (View: 55, DB: 19) | 200 OK [http://localhost/groups]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:55:19) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:55:19) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 15:56:00) [GET]
+  [4;35;1mGroup Load (1.3ms)[0m   [0mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;36;1mPerson Load (1.5ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;35;1mPerson Load (3.1ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;36;1mPerson Load (2.1ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;35;1mPerson Load (3.3ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;36;1mPerson Load (2.6ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;35;1mPerson Load (2.2ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;36;1mPerson Load (2.4ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 92ms (View: 62, DB: 19) | 200 OK [http://localhost/groups]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:56:01) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:56:01) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 15:56:46) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mGroup Load (0.4ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;35;1mPerson Load (2.2ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mEvent Load (0.3ms)[0m   [0;1mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 3 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 72ms (View: 56, DB: 3) | 200 OK [http://localhost/groups/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:56:46) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 15:56:46) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (6.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePeople (20100527060038)
+Migrating to CreateGroups (20100527060111)
+Migrating to GroupsPeople (20100527062304)
+Migrating to CreateEvents (20100529061815)
+Migrating to EventsPeople (20100529063409)
+Migrating to EventsGroups (20100529064526)
+Migrating to AddEmailUniquenessIndex (20100602194826)
+Migrating to AddPasswordToPeople (20100604184421)
+Migrating to AddSaltToPeople (20100604185830)
+Migrating to AddRememberTokenToPeople (20100607160934)
+Migrating to AddAboutToGroups (20100720205820)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mALTER TABLE "groups" ADD "about" text[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100720205820')[0m
+  [4;35;1mSQL (0.9ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("events")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("events_groups")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("events_people")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("groups")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("groups_people")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mPRAGMA index_list("people")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mPRAGMA index_info('index_people_on_remember_token')[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mPRAGMA index_info('index_people_on_email')[0m
+  [4;36;1mGroup Load (1.8ms)[0m   [0;1mSELECT * FROM "groups" [0m
+  [4;35;1mGroup Update (0.7ms)[0m   [0mUPDATE "groups" SET "updated_at" = '2010-07-20 21:01:00', "about" = 'the social group description will go here' WHERE "id" = 1[0m
+  [4;36;1mGroup Load (0.5ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."name" = 'Social') LIMIT 1[0m
+  [4;35;1mGroup Load (1.1ms)[0m   [0mSELECT * FROM "groups" [0m
+  [4;36;1mGroup Load (0.5ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+  [4;35;1mGroup Load (1.2ms)[0m   [0mSELECT * FROM "groups" [0m
+  [4;36;1mGroup Update (0.5ms)[0m   [0;1mUPDATE "groups" SET "updated_at" = '2010-07-20 21:03:21', "about" = 'the Social group description will go here' WHERE "id" = 1[0m
+  [4;35;1mGroup Update (0.6ms)[0m   [0mUPDATE "groups" SET "updated_at" = '2010-07-20 21:03:21', "about" = 'the Professional Development group description will go here' WHERE "id" = 2[0m
+  [4;36;1mGroup Update (0.4ms)[0m   [0;1mUPDATE "groups" SET "updated_at" = '2010-07-20 21:03:21', "about" = 'the Conferences and Competitions group description will go here' WHERE "id" = 3[0m
+  [4;35;1mGroup Update (0.4ms)[0m   [0mUPDATE "groups" SET "updated_at" = '2010-07-20 21:03:21', "about" = 'the Game Development group description will go here' WHERE "id" = 4[0m
+  [4;36;1mGroup Update (0.4ms)[0m   [0;1mUPDATE "groups" SET "updated_at" = '2010-07-20 21:03:21', "about" = 'the Robotics group description will go here' WHERE "id" = 5[0m
+  [4;35;1mGroup Update (0.4ms)[0m   [0mUPDATE "groups" SET "updated_at" = '2010-07-20 21:03:21', "about" = 'the ACM Intercollegiate Programing Competition group description will go here' WHERE "id" = 6[0m
+  [4;36;1mGroup Update (0.6ms)[0m   [0;1mUPDATE "groups" SET "updated_at" = '2010-07-20 21:03:21', "about" = 'the Supercomputing Conference Volunteers group description will go here' WHERE "id" = 7[0m
+  [4;35;1mGroup Load (0.6ms)[0m   [0mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:07:31) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mGroup Load (0.5ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;35;1mPerson Load (2.2ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mEvent Load (0.3ms)[0m   [0;1mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 3 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 74ms (View: 58, DB: 4) | 200 OK [http://localhost/groups/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:07:31) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:07:31) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:08:40) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mGroup Load (1.9ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;35;1mPerson Load (2.3ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mEvent Load (0.3ms)[0m   [0;1mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 3 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 191ms (View: 172, DB: 5) | 200 OK [http://localhost/groups/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:08:40) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:08:40) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:08:54) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mGroup Load (0.4ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;35;1mPerson Load (2.1ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mEvent Load (0.3ms)[0m   [0;1mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 3 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 73ms (View: 58, DB: 3) | 200 OK [http://localhost/groups/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:08:55) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:08:55) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:09:24) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mGroup Load (0.5ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;35;1mPerson Load (2.1ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mEvent Load (0.3ms)[0m   [0;1mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 3 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 70ms (View: 55, DB: 3) | 200 OK [http://localhost/groups/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:09:24) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:09:24) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:10:04) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mGroup Load (0.4ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;35;1mPerson Load (2.1ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mEvent Load (0.4ms)[0m   [0;1mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 3 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 73ms (View: 58, DB: 3) | 200 OK [http://localhost/groups/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:10:04) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:10:04) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mGroup Load (0.5ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 4) [0m
+  [4;35;1mEvent Load (0.4ms)[0m   [0mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 4 ) [0m
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:14:25) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mGroup Load (0.5ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;35;1mPerson Load (2.3ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mEvent Load (0.3ms)[0m   [0;1mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 3 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 107ms (View: 89, DB: 4) | 200 OK [http://localhost/groups/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:14:25) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:14:25) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:14:52) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mGroup Load (0.7ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;35;1mPerson Load (2.3ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mEvent Load (0.3ms)[0m   [0;1mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 3 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 85ms (View: 68, DB: 4) | 200 OK [http://localhost/groups/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:14:53) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:14:53) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:15:52) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mGroup Load (0.4ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;35;1mPerson Load (80.2ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mEvent Load (0.3ms)[0m   [0;1mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 3 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 151ms (View: 58, DB: 81) | 200 OK [http://localhost/groups/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:15:53) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:15:53) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:43:38) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mGroup Load (0.4ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;35;1mPerson Load (2.1ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mEvent Load (0.3ms)[0m   [0;1mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 3 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 81ms (View: 65, DB: 3) | 200 OK [http://localhost/groups/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:43:39) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:43:39) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:43:41) [GET]
+  Parameters: {"id"=>"group_events_list"}
+  [4;36;1mGroup Load (0.2ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 0) [0m
+
+ActiveRecord::RecordNotFound (Couldn't find Group with ID=group_events_list):
+  app/controllers/groups_controller.rb:4:in `show'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (53.9ms)
+Rendered rescues/_request_and_response (14.0ms)
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:44:10) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mGroup Load (0.4ms)[0m   [0mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;36;1mPerson Load (2.3ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;35;1mEvent Load (0.3ms)[0m   [0mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 3 ) [0m
+  [4;36;1mPerson Load (0.7ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 159ms (View: 143, DB: 4) | 200 OK [http://localhost/groups/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:44:10) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:44:11) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:45:18) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mGroup Load (0.4ms)[0m   [0mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;36;1mPerson Load (2.1ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;35;1mEvent Load (0.3ms)[0m   [0mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 3 ) [0m
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 72ms (View: 56, DB: 3) | 200 OK [http://localhost/groups/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:45:19) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:45:19) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:46:31) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mGroup Load (0.4ms)[0m   [0mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;36;1mPerson Load (2.2ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;35;1mEvent Load (0.3ms)[0m   [0mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 3 ) [0m
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 74ms (View: 58, DB: 4) | 200 OK [http://localhost/groups/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:46:31) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:46:32) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:47:16) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mGroup Load (0.4ms)[0m   [0mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;36;1mPerson Load (2.2ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;35;1mEvent Load (0.3ms)[0m   [0mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 3 ) [0m
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 74ms (View: 59, DB: 3) | 200 OK [http://localhost/groups/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:47:16) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:47:16) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:47:27) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mGroup Load (0.4ms)[0m   [0mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;36;1mPerson Load (2.1ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;35;1mEvent Load (0.3ms)[0m   [0mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 3 ) [0m
+  [4;36;1mPerson Load (0.7ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 75ms (View: 59, DB: 4) | 200 OK [http://localhost/groups/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:47:28) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:47:28) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:49:55) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mGroup Load (0.4ms)[0m   [0mSELECT * FROM "groups" WHERE ("groups"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;36;1mPerson Load (2.4ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;35;1mEvent Load (0.3ms)[0m   [0mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 3 ) [0m
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 75ms (View: 59, DB: 4) | 200 OK [http://localhost/groups/3]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:49:56) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:49:56) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 16:50:08) [GET]
+  [4;35;1mGroup Load (1.6ms)[0m   [0mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;36;1mPerson Load (1.5ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;35;1mPerson Load (1.9ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;36;1mPerson Load (2.2ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;35;1mPerson Load (3.6ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;36;1mPerson Load (2.9ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;35;1mPerson Load (7.5ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;36;1mPerson Load (1.3ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 189ms (View: 155, DB: 23) | 200 OK [http://localhost/groups]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:50:09) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:50:09) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:50:23) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mGroup Load (0.4ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;35;1mPerson Load (1.4ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;36;1mEvent Load (0.3ms)[0m   [0;1mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 1 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 62ms (View: 46, DB: 3) | 200 OK [http://localhost/groups/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:50:23) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:50:23) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 16:54:40) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mGroup Load (0.4ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;35;1mPerson Load (1.7ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;36;1mEvent Load (0.3ms)[0m   [0;1mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 1 ) [0m
+  [4;35;1mPerson Load (0.7ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 322ms (View: 273, DB: 3) | 200 OK [http://localhost/groups/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:54:41) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:54:41) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 16:54:57) [GET]
+  [4;36;1mGroup Load (1.6ms)[0m   [0;1mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;35;1mPerson Load (1.4ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;36;1mPerson Load (2.4ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;35;1mPerson Load (2.1ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mPerson Load (5.1ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;35;1mPerson Load (2.7ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;36;1mPerson Load (2.4ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;35;1mPerson Load (1.3ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 90ms (View: 59, DB: 20) | 200 OK [http://localhost/groups]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:54:58) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:54:58) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 16:55:56) [GET]
+  [4;35;1mGroup Load (1.6ms)[0m   [0mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;36;1mPerson Load (1.5ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;35;1mPerson Load (1.8ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;36;1mPerson Load (2.4ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;35;1mPerson Load (3.3ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;36;1mPerson Load (2.8ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;35;1mPerson Load (2.2ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;36;1mPerson Load (1.2ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 104ms (View: 75, DB: 17) | 200 OK [http://localhost/groups]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:55:56) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 16:55:56) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 17:04:02) [GET]
+  [4;36;1mGroup Load (15.5ms)[0m   [0;1mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;35;1mPerson Load (1.6ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;36;1mPerson Load (1.8ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;35;1mPerson Load (3.4ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mPerson Load (4.8ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;35;1mPerson Load (2.9ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;36;1mPerson Load (2.2ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;35;1mPerson Load (1.3ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+  [4;36;1mPerson Load (2.1ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 709ms (View: 222, DB: 36) | 200 OK [http://localhost/groups]
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 17:04:25) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mGroup Load (0.4ms)[0m   [0mSELECT * FROM "groups" WHERE ("groups"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;36;1mPerson Load (1.8ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;35;1mEvent Load (0.3ms)[0m   [0mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 2 ) [0m
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 69ms (View: 51, DB: 3) | 200 OK [http://localhost/groups/2]
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 17:05:08) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mGroup Load (0.4ms)[0m   [0mSELECT * FROM "groups" WHERE ("groups"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;36;1mPerson Load (2.1ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;35;1mEvent Load (0.3ms)[0m   [0mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 2 ) [0m
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 74ms (View: 56, DB: 3) | 200 OK [http://localhost/groups/2]
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 17:05:10) [GET]
+  [4;35;1mGroup Load (1.5ms)[0m   [0mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;36;1mPerson Load (1.3ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;35;1mPerson Load (1.9ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;36;1mPerson Load (2.1ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;35;1mPerson Load (4.7ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;36;1mPerson Load (4.6ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;35;1mPerson Load (98.6ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;36;1mPerson Load (3.0ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 214ms (View: 85, DB: 118) | 200 OK [http://localhost/groups]
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 17:05:35) [GET]
+  [4;36;1mGroup Load (1.6ms)[0m   [0;1mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;35;1mPerson Load (1.6ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;36;1mPerson Load (2.3ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;35;1mPerson Load (2.2ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mPerson Load (3.6ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;35;1mPerson Load (2.9ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;36;1mPerson Load (2.2ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;35;1mPerson Load (2.7ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+  [4;36;1mPerson Load (0.8ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 94ms (View: 62, DB: 20) | 200 OK [http://localhost/groups]
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 17:06:04) [GET]
+  [4;35;1mGroup Load (3.4ms)[0m   [0mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;36;1mPerson Load (1.5ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;35;1mPerson Load (5.8ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;36;1mPerson Load (2.3ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;35;1mPerson Load (3.9ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;36;1mPerson Load (2.7ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;35;1mPerson Load (2.2ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;36;1mPerson Load (1.2ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 91ms (View: 56, DB: 24) | 200 OK [http://localhost/groups]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:06:04) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:06:04) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 17:06:14) [GET]
+  Parameters: {"id"=>"6"}
+  [4;36;1mGroup Load (0.5ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 6) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;35;1mPerson Load (3.7ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;36;1mEvent Load (0.3ms)[0m   [0;1mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 6 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 73ms (View: 53, DB: 5) | 200 OK [http://localhost/groups/6]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:06:14) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:06:14) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#show (for 127.0.0.1 at 2010-07-20 17:07:16) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering people/show
+  [4;35;1mGroup Load (1.0ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 5 ) [0m
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+Completed in 62ms (View: 41, DB: 2) | 200 OK [http://localhost/people/5]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:07:16) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:07:16) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#show (for 127.0.0.1 at 2010-07-20 17:39:39) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mPerson Load (0.7ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering people/show
+  [4;36;1mPerson Load (0.7ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'dd4fd9290fe95e72859060821b131704748a79e7c0b67c01d539978e466593a5') LIMIT 1[0m
+  [4;35;1mGroup Load (1.0ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 5 ) [0m
+Completed in 313ms (View: 180, DB: 2) | 200 OK [http://localhost/people/5]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:39:41) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:39:41) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-07-20 17:39:44) [DELETE]
+  Parameters: {"authenticity_token"=>"JwWReHYDXspG90M0paCIdmEvfiwy2V+LmzP9X2jjBy4="}
+Redirected to http://localhost:3000/
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/signout]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2010-07-20 17:39:44) [DELETE]
+  Parameters: {"authenticity_token"=>"JwWReHYDXspG90M0paCIdmEvfiwy2V+LmzP9X2jjBy4="}
+Redirected to http://localhost:3000/
+Completed in 6ms (DB: 0) | 302 Found [http://localhost/signout]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-07-20 17:39:44) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 24ms (View: 20, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:39:45) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:39:45) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 17:39:52) [GET]
+  [4;36;1mGroup Load (16.7ms)[0m   [0;1mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;35;1mPerson Load (1.4ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;36;1mPerson Load (1.9ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;35;1mPerson Load (2.2ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mPerson Load (3.4ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;35;1mPerson Load (4.0ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;36;1mPerson Load (2.1ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;35;1mPerson Load (1.2ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+Completed in 92ms (View: 49, DB: 33) | 200 OK [http://localhost/groups]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:39:52) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:39:52) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing EventsController#index (for 127.0.0.1 at 2010-07-20 17:40:28) [GET]
+  [4;36;1mEvent Load (0.6ms)[0m   [0;1mSELECT * FROM "events" [0m
+Rendering template within layouts/application
+Rendering events/index
+Completed in 49ms (View: 30, DB: 1) | 200 OK [http://localhost/events]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:40:28) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:40:28) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 17:40:29) [GET]
+  [4;35;1mGroup Load (1.5ms)[0m   [0mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;36;1mPerson Load (1.4ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;35;1mPerson Load (2.2ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;36;1mPerson Load (2.4ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;35;1mPerson Load (3.1ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;36;1mPerson Load (2.5ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;35;1mPerson Load (2.1ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;36;1mPerson Load (1.2ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+Completed in 78ms (View: 51, DB: 16) | 200 OK [http://localhost/groups]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:40:29) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:40:30) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-07-20 17:40:33) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 28ms (View: 25, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:40:33) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:40:33) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2010-07-20 17:40:35) [GET]
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 191ms (View: 187, DB: 0) | 200 OK [http://localhost/signin]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:40:36) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:40:36) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-07-20 17:41:01) [POST]
+  Parameters: {"commit"=>"Log in", "session"=>{"password"=>"george", "email"=>"george@grillzRus.com"}, "authenticity_token"=>"JwWReHYDXspG90M0paCIdmEvfiwy2V+LmzP9X2jjBy4="}
+  [4;35;1mPerson Load (0.3ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."email" = 'george@grillzRus.com') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 29ms (View: 10, DB: 0) | 200 OK [http://localhost/sessions]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:41:01) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:41:01) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-07-20 17:41:14) [POST]
+  Parameters: {"commit"=>"Log in", "session"=>{"password"=>"notnow16", "email"=>"johnnybrown7@gmail.com"}, "authenticity_token"=>"JwWReHYDXspG90M0paCIdmEvfiwy2V+LmzP9X2jjBy4="}
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."email" = 'johnnybrown7@gmail.com') LIMIT 1[0m
+Rendering template within layouts/application
+Rendering sessions/new
+Completed in 259ms (View: 11, DB: 1) | 200 OK [http://localhost/sessions]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:41:14) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:41:14) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mPerson Load (0.9ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."email" = 'johnnybrown7@gmail.com') LIMIT 1[0m
+  [4;35;1mPerson Load (17.9ms)[0m   [0mSELECT "people".id FROM "people" WHERE (LOWER("people"."email") = 'johnnybrown7@gmail.com' AND "people".id <> 31) LIMIT 1[0m
+  [4;36;1mPerson Update (0.7ms)[0m   [0;1mUPDATE "people" SET "updated_at" = '2010-07-20 22:42:24', "encrypted_password" = '2e43271148ce1c6fc3ecaa14752e31d2d746dfcd916288ba6ec840fd4fe777d0', "salt" = '86c1002526dbc6e7a0d47d6f3ce888a6b4a2217a63fae299e2c8c228d06996df' WHERE "id" = 31[0m
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2010-07-20 17:42:58) [POST]
+  Parameters: {"commit"=>"Log in", "session"=>{"password"=>"notnow16", "email"=>"johnnybrown7@gmail.com"}, "authenticity_token"=>"JwWReHYDXspG90M0paCIdmEvfiwy2V+LmzP9X2jjBy4="}
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."email" = 'johnnybrown7@gmail.com') LIMIT 1[0m
+  [4;36;1mPerson Update (6.2ms)[0m   [0;1mUPDATE "people" SET "updated_at" = '2010-07-20 22:42:58', "remember_token" = 'd5d7afc617211ce847b19ac9fe158d70b3dde3236e2aaff39b846ff4c7bc0329' WHERE "id" = 31[0m
+Redirected to http://localhost:3000/people/31
+Completed in 267ms (DB: 7) | 302 Found [http://localhost/sessions]
+
+
+Processing PeopleController#show (for 127.0.0.1 at 2010-07-20 17:42:58) [GET]
+  Parameters: {"id"=>"31"}
+  [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 31) [0m
+Rendering template within layouts/application
+Rendering people/show
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'd5d7afc617211ce847b19ac9fe158d70b3dde3236e2aaff39b846ff4c7bc0329') LIMIT 1[0m
+  [4;35;1mGroup Load (1.0ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 31 ) [0m
+Completed in 102ms (View: 53, DB: 2) | 200 OK [http://localhost/people/31]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:42:58) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:42:58) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing EventsController#index (for 127.0.0.1 at 2010-07-20 17:44:36) [GET]
+  [4;36;1mEvent Load (0.6ms)[0m   [0;1mSELECT * FROM "events" [0m
+Rendering template within layouts/application
+Rendering events/index
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'd5d7afc617211ce847b19ac9fe158d70b3dde3236e2aaff39b846ff4c7bc0329') LIMIT 1[0m
+Completed in 38ms (View: 26, DB: 1) | 200 OK [http://localhost/events]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:44:37) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:44:37) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 17:44:38) [GET]
+  [4;36;1mGroup Load (1.5ms)[0m   [0;1mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;35;1mPerson Load (1.5ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;36;1mPerson Load (1.8ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;35;1mPerson Load (3.6ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mPerson Load (3.4ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;35;1mPerson Load (2.7ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;36;1mPerson Load (7.1ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;35;1mPerson Load (1.5ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'd5d7afc617211ce847b19ac9fe158d70b3dde3236e2aaff39b846ff4c7bc0329') LIMIT 1[0m
+Completed in 96ms (View: 60, DB: 24) | 200 OK [http://localhost/groups]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:44:38) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:44:38) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-07-20 17:44:40) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+  [4;35;1mPerson Load (0.5ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'd5d7afc617211ce847b19ac9fe158d70b3dde3236e2aaff39b846ff4c7bc0329') LIMIT 1[0m
+Completed in 30ms (View: 26, DB: 1) | 200 OK [http://localhost/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:44:40) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:44:40) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#show (for 127.0.0.1 at 2010-07-20 17:44:42) [GET]
+  Parameters: {"id"=>"31"}
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 31) [0m
+Rendering template within layouts/application
+Rendering people/show
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'd5d7afc617211ce847b19ac9fe158d70b3dde3236e2aaff39b846ff4c7bc0329') LIMIT 1[0m
+  [4;36;1mGroup Load (1.2ms)[0m   [0;1mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 31 ) [0m
+Completed in 143ms (View: 123, DB: 2) | 200 OK [http://localhost/people/31]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:44:42) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:44:42) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#show (for 127.0.0.1 at 2010-07-20 17:48:06) [GET]
+  Parameters: {"id"=>"31"}
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 31) [0m
+Rendering template within layouts/application
+Rendering people/show
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'd5d7afc617211ce847b19ac9fe158d70b3dde3236e2aaff39b846ff4c7bc0329') LIMIT 1[0m
+  [4;35;1mGroup Load (0.9ms)[0m   [0mSELECT * FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups_people".person_id = 31 ) [0m
+Completed in 140ms (View: 64, DB: 2) | 200 OK [http://localhost/people/31]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:48:06) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:48:06) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing PeopleController#edit (for 127.0.0.1 at 2010-07-20 17:48:08) [GET]
+  Parameters: {"id"=>"31"}
+  [4;36;1mPerson Load (0.5ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'd5d7afc617211ce847b19ac9fe158d70b3dde3236e2aaff39b846ff4c7bc0329') LIMIT 1[0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."id" = 31) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."id" = 31) [0m
+  [4;35;1mGroup Load (1.1ms)[0m   [0mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering people/edit
+  [4;36;1mGroup Load (0.3ms)[0m   [0;1mSELECT "groups".id FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups"."id" = 1) AND ("groups_people".person_id = 31 ) LIMIT 1[0m
+  [4;35;1mGroup Load (0.3ms)[0m   [0mSELECT "groups".id FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups"."id" = 2) AND ("groups_people".person_id = 31 ) LIMIT 1[0m
+  [4;36;1mGroup Load (0.4ms)[0m   [0;1mSELECT "groups".id FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups"."id" = 3) AND ("groups_people".person_id = 31 ) LIMIT 1[0m
+  [4;35;1mGroup Load (0.4ms)[0m   [0mSELECT "groups".id FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups"."id" = 4) AND ("groups_people".person_id = 31 ) LIMIT 1[0m
+  [4;36;1mGroup Load (0.4ms)[0m   [0;1mSELECT "groups".id FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups"."id" = 5) AND ("groups_people".person_id = 31 ) LIMIT 1[0m
+  [4;35;1mGroup Load (0.4ms)[0m   [0mSELECT "groups".id FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups"."id" = 6) AND ("groups_people".person_id = 31 ) LIMIT 1[0m
+  [4;36;1mGroup Load (0.4ms)[0m   [0;1mSELECT "groups".id FROM "groups" INNER JOIN "groups_people" ON "groups".id = "groups_people".group_id WHERE ("groups"."id" = 7) AND ("groups_people".person_id = 31 ) LIMIT 1[0m
+Completed in 113ms (View: 54, DB: 5) | 200 OK [http://localhost/people/31/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:48:08) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:48:08) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 17:48:38) [GET]
+  [4;35;1mGroup Load (1.7ms)[0m   [0mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;36;1mPerson Load (1.4ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;35;1mPerson Load (4.2ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;36;1mPerson Load (2.2ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;35;1mPerson Load (3.4ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;36;1mPerson Load (2.7ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;35;1mPerson Load (2.1ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;36;1mPerson Load (1.2ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+  [4;35;1mPerson Load (0.6ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'd5d7afc617211ce847b19ac9fe158d70b3dde3236e2aaff39b846ff4c7bc0329') LIMIT 1[0m
+Completed in 88ms (View: 57, DB: 20) | 200 OK [http://localhost/groups]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:48:38) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:48:38) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 17:51:05) [GET]
+  [4;36;1mGroup Load (11.4ms)[0m   [0;1mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;35;1mPerson Load (1.4ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;36;1mPerson Load (2.4ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;35;1mPerson Load (8.3ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;36;1mPerson Load (4.3ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;35;1mPerson Load (3.0ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;36;1mPerson Load (2.2ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;35;1mPerson Load (1.2ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+  [4;36;1mPerson Load (0.6ms)[0m   [0;1mSELECT * FROM "people" WHERE ("people"."remember_token" = 'd5d7afc617211ce847b19ac9fe158d70b3dde3236e2aaff39b846ff4c7bc0329') LIMIT 1[0m
+Completed in 140ms (View: 94, DB: 35) | 200 OK [http://localhost/groups]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:51:05) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:51:05) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#index (for 127.0.0.1 at 2010-07-20 17:51:28) [GET]
+  [4;35;1mGroup Load (1.5ms)[0m   [0mSELECT * FROM "groups" [0m
+Rendering template within layouts/application
+Rendering groups/index
+  [4;36;1mPerson Load (1.4ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;35;1mPerson Load (1.7ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 2 ) [0m
+  [4;36;1mPerson Load (3.9ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 3 ) [0m
+  [4;35;1mPerson Load (3.8ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 4 ) [0m
+  [4;36;1mPerson Load (2.7ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 5 ) [0m
+  [4;35;1mPerson Load (2.1ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 6 ) [0m
+  [4;36;1mPerson Load (1.5ms)[0m   [0;1mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 7 ) [0m
+  [4;35;1mPerson Load (6.7ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'd5d7afc617211ce847b19ac9fe158d70b3dde3236e2aaff39b846ff4c7bc0329') LIMIT 1[0m
+Completed in 101ms (View: 63, DB: 25) | 200 OK [http://localhost/groups]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:51:28) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:51:28) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing GroupsController#show (for 127.0.0.1 at 2010-07-20 17:51:32) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mGroup Load (0.4ms)[0m   [0;1mSELECT * FROM "groups" WHERE ("groups"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering groups/show
+  [4;35;1mPerson Load (1.5ms)[0m   [0mSELECT * FROM "people" INNER JOIN "groups_people" ON "people".id = "groups_people".person_id WHERE ("groups_people".group_id = 1 ) [0m
+  [4;36;1mEvent Load (1.6ms)[0m   [0;1mSELECT * FROM "events" INNER JOIN "events_groups" ON "events".id = "events_groups".event_id WHERE ("events_groups".group_id = 1 ) [0m
+  [4;35;1mPerson Load (0.7ms)[0m   [0mSELECT * FROM "people" WHERE ("people"."remember_token" = 'd5d7afc617211ce847b19ac9fe158d70b3dde3236e2aaff39b846ff4c7bc0329') LIMIT 1[0m
+Completed in 64ms (View: 48, DB: 4) | 200 OK [http://localhost/groups/1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:51:32) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/builder.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-20 17:51:32) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/lib/sound.js" with {:method=>:get}):
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)

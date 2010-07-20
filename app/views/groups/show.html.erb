@@ -1,13 +1,50 @@
+<script>
+  document.observe('dom:loaded',function(){
+    new Control.Tabs('group_tabs');  
+    Control.Tabs.instances[0].first();
+  });
+</script>
+<style>
+.subsection_tabs{
+  float: left;
+}
+</style>
 <h2><%= @group.name %> </h2>
-<div id = group_people_list>
-<strong>Members:<strong><br>
-<% @group.people.each do |person| %>
-<%= link_to person.name, person %><br>
-<%end%>
+<div class="tabs_navigation">
+<ul id="group_tabs" class="subsection_tabs navigation">
+  <li class = "tab">
+    <a href="#group_people_list" class="round">Members</a>
+  </li>
+  <li class = "tab">
+    <a href="#group_events_list" class="round">Events</a>
+  </li>
+  <li class = "tab">
+    <a href="#group_about" class="round">About</a>
+  </li>
+</ul>
 </div>
-<div id = group_events_list>
-<strong>Upcoming events:</strong>
-<% @group.events.each do |event| %>
-<%= link_to event.name, event %><br>
-<%end%>
+<hr>
+<div id = "group_people_list">
+  <strong>Members:</strong><br>
+  <p>
+  <% @group.people.each do |person| %>
+    <%= link_to person.name, person %><br>
+  <%end%>
+  </p>
+</div>
+<div id = "group_events_list">
+  <strong>Upcoming events:</strong>
+  <p>
+  <%if (@group.events.length == 0) then%>
+    <%="Any upcoming events for this group will go here"%>
+  <%else%>
+    <% @group.events.each do |event| %>
+      <%= link_to event.name, event %><br>
+    <%end%>
+  <%end%>
+  </p>
+</div>
+<div id ="group_about">
+  <strong>Group description:</strong>
+  <p><%=@group.about%></p>
 </div>

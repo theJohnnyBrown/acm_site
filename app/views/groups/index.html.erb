@@ -14,17 +14,20 @@
 	  <% count = count + 1 %>
 	<% end %>
 </ul>
-</div> 			
+</div> 	
+<hr>		
   <% count = 0 %>
   <% @groups.each do |group| %>
 
 	<div id="<%="tab#{count}"%>" >
+		
+		<h4><%= link_to group.name, group_path(group) %> </h4>
+		<strong>Members:</strong>
 		<p>
 		  <%group.people.each do |person| %>
 		    <%= person.name %><br>
 		  
 		  <% end %>
-		<b><%= link_to "#{group.name}", group_path(group) %></b><br>  
 		</p>
 	</div>
 	<% count = count + 1 %>
