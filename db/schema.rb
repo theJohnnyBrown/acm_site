@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100720205820) do
+ActiveRecord::Schema.define(:version => 20100803232712) do
 
   create_table "events", :force => true do |t|
     t.string   "name"
@@ -29,12 +29,8 @@ ActiveRecord::Schema.define(:version => 20100720205820) do
     t.integer "person_id"
   end
 
-  create_table "groups", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.text     "about"
-  end
+# Could not dump table "groups" because of following StandardError
+#   Unknown type 'person_id' for column 'contact_person'
 
   create_table "groups_people", :id => false, :force => true do |t|
     t.integer "group_id"
