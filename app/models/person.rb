@@ -1,5 +1,11 @@
 require 'digest'
 class Person < ActiveRecord::Base
+  PRESIDENT = 4
+  VICE_PRESIDENT = 5
+  TREASURER = 2
+  SECRETARY = 8
+  POSITION_STRINGS = {SECRETARY => "Secretary",PRESIDENT => "President",VICE_PRESIDENT => "Vice President", TREASURER => "Treasurer"}
+  
   attr_accessor :password
   attr_accessible :name, :email, :password, :password_confirmation, :group_ids
   
@@ -30,8 +36,18 @@ class Person < ActiveRecord::Base
     return nil  if person.nil?
     return person if person.has_password?(submitted_password)
   end
-
-  def self.populate!
+  
+  def self.officers
+    officers = []
+    officers << (Person.find_by_role(PRESIDENT)) << (Person.find_by_role(VICE_PRESIDENT)) << (Person.find_by_role(TREASURER)) << (Person.find_by_role(SECRETARY))
+    officers
+  end
+  
+  def position
+    POSITION_STRINGS[self.role]
+  end
+  
+  def self.populate!(filename)
     grp = Group.new(:name => "Social")
     grp.save
     grp = Group.new(:name => "Professional Development")
@@ -47,7 +63,7 @@ class Person < ActiveRecord::Base
     grp = Group.new(:name => "Supercomputing Conference Volunteers")
     grp.save
     
-    file = File.new("/home/johnny/Documents/rails/acm_site/app/models/populate.txt", "r")
+    file = File.new(filename, "r")
     while (line = file.gets)
       member = line.split
       last_name = member[0]

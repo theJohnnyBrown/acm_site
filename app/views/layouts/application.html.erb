@@ -19,10 +19,10 @@
   <body>
   <div class="container">
     <div id="header">
-        <%= image_tag("logo.png", :alt => "ACM logo?", :class => "round") %>
+        <%= image_tag("logo.gif", :alt => "ACM logo?", :class => "round") %>
         <ul class="navigation round">
           <li><%= link_to "Home", root_path %></li>
-          <li><%= link_to "Calendar", events_path %></li>
+          <li><%= link_to "Upcoming events", events_path %></li>
           <li><%= link_to "Interest Groups", groups_path %></li>
           <li><%= link_to "About", about_path %></li>
           <% if signed_in? %>
