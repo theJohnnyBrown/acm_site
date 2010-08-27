@@ -25,11 +25,7 @@
           <li><%= link_to "Upcoming events", events_path %></li>
           <li><%= link_to "Interest Groups", groups_path %></li>
           <li><%= link_to "About", about_path %></li>
-          <% if signed_in? %>
-          <li><%= link_to "My profile", current_person %></li>
-          <li><%= link_to "Edit profile", edit_person_path(current_person) %></li>
-          <li><%= link_to "Sign out", signout_path, :method => :delete %></li>
-          <% else %>          
+          <% unless signed_in? %>          
           <li><%= link_to "Sign in", signin_path %></li>
           <%end%>
         </ul>
@@ -40,7 +36,14 @@
         <% end %> 
        <h1><%= @title %></h1>
        <%= yield %>
-     </div>
+      </div>
+      <% if signed_in? %>
+        <ul class="navigation round">
+          <li><%= link_to "My profile", current_person %></li>
+          <li><%= link_to "Edit profile", edit_person_path(current_person) %></li>
+          <li><%= link_to "Sign out", signout_path, :method => :delete %></li>
+        </ul>
+      <%end%>
   </div> 
   </body>
 </html>

@@ -39,17 +39,17 @@ body {
 }
 
 a {
-  color: #09c;
+  color: #000066;
   text-decoration: none;
 }
 
 a:hover {
-  color: #069;
+  color: #000066;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #069;
+  color: #000066;
 }
 
 
@@ -82,7 +82,7 @@ ul.navigation {
 }
 
 .navigation li a:visited {
-  color: #09c;
+  color: #000066;
 }
 
 .navigation li a:hover {

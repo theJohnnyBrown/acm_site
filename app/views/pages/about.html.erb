@@ -1,2 +1,6 @@
-
-<p>The ever-present about page</p>
+ 
+<ul>
+  <%Person.officers.each do |o|%>
+    <li><%="<strong>#{o.name}</strong> #{o.position} - #{o.email}" %></li>
+  <%end%>
+</ul>

@@ -45,7 +45,7 @@ ActiveRecord::Schema.define(:version => 20100816203503) do
     t.string   "encrypted_password"
     t.string   "salt"
     t.string   "remember_token"
-    t.string   "role"
+    t.integer  "role"
   end
 
   add_index "people", ["email"], :name => "index_people_on_email", :unique => true
